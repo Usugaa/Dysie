@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Outfit';
+}
+
+.logo a img{
+    width:  125px;
+    height: 125px;
+    margin: 10px 0px 10 0px;
+}
+
+body {
+background-image: linear-gradient(41deg, rgba(107, 107, 107, 0.04) 0%, rgba(107, 107, 107, 0.04) 8%,rgba(31, 31, 31, 0.04) 8%, rgba(31, 31, 31, 0.04) 100%),linear-gradient(9deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 62%,rgba(54, 54, 54, 0.04) 62%, rgba(54, 54, 54, 0.04) 100%),linear-gradient(124deg, rgba(18, 18, 18, 0.04) 0%, rgba(18, 18, 18, 0.04) 37%,rgba(233, 233, 233, 0.04) 37%, rgba(233, 233, 233, 0.04) 100%),linear-gradient(253deg, rgba(201, 201, 201, 0.04) 0%, rgba(201, 201, 201, 0.04) 55%,rgba(47, 47, 47, 0.04) 55%, rgba(47, 47, 47, 0.04) 100%),linear-gradient(270deg, rgba(172, 172, 172, 0.04) 0%, rgba(172, 172, 172, 0.04) 33%,rgba(26, 26, 26, 0.04) 33%, rgba(26, 26, 26, 0.04) 100%),linear-gradient(64deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 38%,rgba(87, 87, 87, 0.04) 38%, rgba(87, 87, 87, 0.04) 100%),linear-gradient(347deg, rgba(199, 199, 199, 0.04) 0%, rgba(199, 199, 199, 0.04) 69%,rgba(4, 4, 4, 0.04) 69%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(313deg, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 20%,rgba(91, 91, 91, 0.04) 20%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(90deg, rgb(104,255,114),rgb(55,175,255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.formulario__login {
+    opacity: 1;
+    display: block;
+}
+
+
+/* Estilos para la alerta de error */
+.alert-danger {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la alerta de éxito */
+.alert-success, .alert-danger {
+background: linear-gradient(25deg, #003d69, #0dbf58);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+}
+
+
+.contenedor-linkVolver{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    
+} 
+
+.link-Volver{
+    margin: auto;
+    color: #ff0000;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.link-Volver:hover{
+    margin: auto;
+    color: #ffffff
+}
+.contenedor__login-register{
+    width: 100%;
+    padding: 80px 20px;
+    background: linear-gradient(140deg, #0ea048, #08208a);
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 100vh;
+
+}
